@@ -14,7 +14,10 @@ function uibootstrap_civicrm_angularModules(&$angularModules) {
   $angularModules['ui.bootstrap'] = array(
     'ext' => 'org.civicrm.uibootstrap',
     'js' => array(
-      'node_modules/angular-ui-bootstrap/ui-bootstrap-tpls.min.js',
+      'js/ui-bootstrap-tpls.min.js',
+    ),
+    'settings' => array(
+      'sel' => '#bootstrap-theme',
     ),
   );
 }
