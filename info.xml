@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<extension key="org.civicrm.uibootstrap" type="module">
+  <file>uibootstrap</file>
+  <name>Angular (ui-bootstrap)</name>
+  <description>Packaged version of ui-bootstrap</description>
+  <license>MIT</license>
+  <maintainer>
+    <author>Tim Otten</author>
+    <email>totten@civicrm.org</email>
+  </maintainer>
+  <urls>
+    <url desc="Main Extension Page">https://github.com/angular-ui/bootstrap</url>
+    <url desc="Documentation">https://github.com/angular-ui/bootstrap</url>
+    <url desc="Support">https://github.com/angular-ui/bootstrap</url>
+    <url desc="Licensing">http://opensource.org/licenses/MIT</url>
+  </urls>
+  <releaseDate>2017-01-03</releaseDate>
+  <version>0.14.3</version>
+  <develStage>stable</develStage>
+  <compatibility>
+    <ver>4.7</ver>
+  </compatibility>
+  <comments></comments>
+  <civix>
+    <namespace>CRM/Uibootstrap</namespace>
+  </civix>
+</extension>
