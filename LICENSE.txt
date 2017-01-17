@@ -1,5 +1,5 @@
 Package: org.civicrm.uibootstrap
-Copyright (c) 2017 Tim Otten <totten@civicrm.org>
+Copyright (c) 2017 CiviCRM LLC <info@civicrm.org>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

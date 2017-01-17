@@ -5,8 +5,8 @@
   <description>Packaged version of ui-bootstrap</description>
   <license>MIT</license>
   <maintainer>
-    <author>Tim Otten</author>
-    <email>totten@civicrm.org</email>
+    <author>CiviCRM</author>
+    <email>info@civicrm.org</email>
   </maintainer>
   <urls>
     <url desc="Main Extension Page">https://github.com/angular-ui/bootstrap</url>
