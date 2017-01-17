@@ -15,7 +15,7 @@
     <url desc="Licensing">http://opensource.org/licenses/MIT</url>
   </urls>
   <releaseDate>2017-01-03</releaseDate>
-  <version>4.7-0.14.3</version>
+  <version>4.7-0.14.3.0</version>
   <develStage>stable</develStage>
   <compatibility>
     <ver>4.6</ver>
