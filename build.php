@@ -2,7 +2,7 @@
 <?php
 
 // Download the original source and patch it to work with
-// CiviCRM 4.6/4.7 + org.civicrm.bootstrapcivicrm.
+// CiviCRM 4.6/4.7 + org.civicrm.shoreditch.
 
 if (PHP_SAPI !== 'cli') {
   die("build.php can only be run from command line.");
@@ -21,7 +21,7 @@ foreach ($files as $file => $url) {
   echo "Build \"$file\" from \"$url\"\n";
   $data = file_get_contents($url);
 
-  // org.civicrm.bootstrapcivicrm does not support Bootstrap CSS in the body.
+  // org.civicrm.shoreditch does not support Bootstrap CSS in the body.
   $data = str_replace("'body'", "CRM['ui.bootstrap'].sel", $data);
   $data = str_replace('"body"', "CRM['ui.bootstrap'].sel", $data);
 
